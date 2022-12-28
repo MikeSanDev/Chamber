@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Eczar&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Eczar', serif;
+}
+
+.App {
+  min-height: 100vh;
+
+}
+
+:root {
+  --mainColor: #f5e6c5;
+  --secondaryColor: #014620;
+  --tertiaryColor: #eb8220;
+  --accentColor: #f5b49f;
+  --lightGray: #dddcd6;
+  --olive: #b3b298;
+  --lightGreen: #a9b2a2;
+  --lightBrown: #b99880;
+}
+
+.products {
+  background-color: var(--lightGray);
+  padding: 100px 100px;
+  border-radius: 50px;
+}
+
+.container {
+  width: 100%;
+}

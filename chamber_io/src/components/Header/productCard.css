@@ -1,0 +1,52 @@
+/***************************** Product Card  ********************************/
+.one_card {
+  transition: box-shadow .3s;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.one_card:hover {
+  box-shadow: 0 0 11px rgba(33, 33, 33, .2);
+}
+
+.all_btn {
+  background: var(--secondaryColor);
+  color: #fff;
+  border: none;
+  position: relative;
+  height: 40px;
+  font-size: 1.2em;
+  padding: 0 1em;
+  cursor: pointer;
+  transition: 800ms ease all;
+  outline: none;
+}
+
+.all_btn:hover {
+  background: #fff;
+  color: var(--tertiaryColor);
+}
+
+.all_btn:before,
+.all_btn:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 2px;
+  width: 0;
+  background: var(--mainColor);
+  transition: 400ms ease all;
+}
+
+.all_btn:after {
+  right: inherit;
+  top: inherit;
+  left: 0;
+  bottom: 0;
+}
+
+.all_btn:hover:before,
+.all_btn:hover:after {
+  width: 100%;
+  transition: 800ms ease all;
+}
