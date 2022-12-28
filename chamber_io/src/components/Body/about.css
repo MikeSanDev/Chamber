@@ -1,0 +1,26 @@
+.about {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 50px
+}
+
+.about_block2 {
+    display: flex;
+    align-items: center;
+}
+
+.about_block1 {
+    padding-left: 30px;
+}
+
+.about_block2>p {
+    padding: 0px 100px;
+    font-size: 20px;
+}
+
+.about_vid {
+    width: 500px;
+    height: auto;
+    border-radius: 60%;
+}

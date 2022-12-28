@@ -1,0 +1,11 @@
+.banner {
+    width: 100%;
+    padding: 70px 0px 60px 0px;
+    background-color: var(--lightGreen);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: #eee;
+
+}

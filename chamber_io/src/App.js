@@ -7,12 +7,16 @@ import Home from './pages/Home'
 import Success from './pages/Success'
 import CartProvider from './CartContext'
 import Footer from './components/Footer/Footer'
+import Banner from './components/Body/Banner'
+import About from './components/Body/About'
 
 function App() {
   return (
     <div className="App">
       <CartProvider>
         <NavbarComponent />
+        <Banner />
+        <About />
         <Container>
           <BrowserRouter>
             <Routes>

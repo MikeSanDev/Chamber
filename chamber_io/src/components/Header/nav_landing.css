@@ -69,7 +69,7 @@
 }
 
 .nav_btn:active:after {
-    background: var(--lightBrown);
+    background: var(--lightGreen);
 }
 
 .nav_btn:hover:before {
@@ -82,7 +82,7 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    background: var(--lightBrown);
+    background: var(--lightGreen);
     left: 0;
     top: 0;
     border-radius: 10px;
@@ -125,7 +125,7 @@
 .landing_page {
     width: 100%;
     height: 100vh;
-    margin-bottom: 50px;
+
     position: relative;
     transition: 0.5s;
 }
