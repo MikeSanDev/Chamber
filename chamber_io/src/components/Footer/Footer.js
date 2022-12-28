@@ -12,7 +12,7 @@ function Footer() {
             <div className="footer_follow">
                 <div className='footer_block1'>
                     <h5>Chamber /ˈCHāmbər/</h5>
-                    <p>A mindset to evolve and push boundaries in an atmosphere for focus, intention and growth.</p>
+                    <p>A mindset to evolve and push boundaries in an atmosphere for focus, intention and growth!</p>
                 </div>
 
                 <div className='footer_block2'>
