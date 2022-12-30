@@ -73,7 +73,7 @@ function NavbarComponent() {
                 <video src="/images/bgVideo.mp4" autoPlay muted loop className="video_bg" />
                 <div className="hero_container">
                     <h1 className='title_landing'>Chamber.IO</h1>
-                    <h4 align="center">In-person dance training and blockchain art</h4>
+                    <h4 className='title_desc'>In-person dance training and blockchain art</h4>
                 </div>
 
             </div>

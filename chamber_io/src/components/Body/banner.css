@@ -6,6 +6,5 @@
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    color: rgb(236, 232, 221);
-
+    color: var(--lightBrown);
 }

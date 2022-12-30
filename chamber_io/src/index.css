@@ -9,18 +9,22 @@
 
 .App {
   min-height: 100vh;
-
+  background-color: var(--lightBrown);
 }
+
+
 
 :root {
   --mainColor: #f5e6c5;
   --secondaryColor: #014620;
-  --tertiaryColor: #eb8220;
   --accentColor: #f5b49f;
   --lightGray: #dddcd6;
   --olive: #b3b298;
   --lightGreen: #a9b2a2;
-  --lightBrown: #b99880;
+  --brown: #b99880;
+  --beigeYellow: #F8EDE3;
+  --lightBrown: #FEF5ED;
+  --lime: #D3E4CD;
 }
 
 .products {
@@ -31,6 +35,7 @@
 
 .session_title {
   text-align: center;
+  color: var(--secondaryColor);
 }
 
 .container {
