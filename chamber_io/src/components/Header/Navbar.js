@@ -1,8 +1,9 @@
-import { Button, Container, Navbar, Modal } from 'react-bootstrap';
+import { Button, Navbar, Modal } from 'react-bootstrap';
 import { useState, useContext } from 'react';
 import { CartContext } from '../../CartContext';
 import CartProduct from './CartProduct';
 import './nav_landing.css';
+
 
 
 function NavbarComponent() {
@@ -68,8 +69,8 @@ function NavbarComponent() {
                         }
                     </Modal.Body>
                 </Modal>
+
                 <video src="/images/bgVideo.mp4" autoPlay muted loop className="video_bg" />
-                <div class="bg_overlay"></div>
                 <div className="hero_container">
                     <h1 className='title_landing'>Chamber.IO</h1>
                     <h4 align="center">In-person dance training and blockchain art</h4>
