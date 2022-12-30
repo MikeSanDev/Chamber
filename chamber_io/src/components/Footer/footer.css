@@ -1,13 +1,11 @@
 /***************************** Footer ********************************/
 .Footer {
-    margin-top: auto;
-    color: #747474;
-    margin-top: 30px;
+    margin-top: 50px;
 
 }
 
 .footer_follow {
-    background-color: #efefef;
+    background-color: var(--lightGreen);
     padding: 30px 0px 0px 70px;
     display: flex;
     justify-content: space-evenly;
@@ -38,10 +36,13 @@
 .footer_block1>h5 {
     margin-bottom: 0px;
     color: #000;
+
 }
 
 .footer_block1>p {
     margin-right: 30px;
+    color: var(--lightBrown);
+    font-size: 19px;
 }
 
 .footer_block2>h5 {
@@ -51,42 +52,8 @@
 
 .footer_block2>a {
     text-decoration: none;
-
+    color: var(--lightBrown);
 }
-
-.footer_block3>h5 {
-    margin-bottom: 0;
-    color: #000;
-}
-
-.footer_link {
-    display: flex;
-    width: 20px
-}
-
-.ig_icon {
-    font-size: 20px;
-    color: #747474;
-}
-
-.ig_icon {
-    transition: all 0.3s linear;
-}
-
-.ig_icon:hover {
-    transform: scale(1.5);
-    color: #e11d74;
-}
-
-.copyright {
-    text-align: left;
-    font-size: 15px;
-    color: aliceblue;
-    background-color: #000;
-    margin-bottom: 0;
-    padding: 20px 0px 20px 70px;
-}
-
 
 .link_highlight {
     background:
@@ -103,4 +70,39 @@
 
 .link_highlight:hover {
     background-size: 4px 50px;
+    color: #000;
+}
+
+.footer_block3>h5 {
+    margin-bottom: 0;
+    color: #000;
+}
+
+.footer_link {
+    display: flex;
+    width: 20px
+}
+
+.ig_icon {
+    font-size: 20px;
+    color: #000;
+}
+
+.ig_icon {
+    transition: all 0.3s linear;
+    color: var(--lightBrown);
+}
+
+.ig_icon:hover {
+    transform: scale(1.5);
+    color: #e11d74;
+}
+
+.copyright {
+    text-align: left;
+    font-size: 15px;
+    color: var(--lightBrown);
+    background-color: var(--secondaryColor);
+    margin-bottom: 0;
+    padding: 20px 0px 20px 70px;
 }

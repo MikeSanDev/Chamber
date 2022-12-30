@@ -23,7 +23,7 @@
 
 .all_btn:hover {
   background: #fff;
-  color: var(--tertiaryColor);
+  color: var(--accentColor);
 }
 
 .all_btn:before,

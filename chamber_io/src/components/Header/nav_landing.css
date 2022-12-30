@@ -103,11 +103,22 @@
 }
 
 /***************************** Landing Page ********************************/
+.navbar {
+    position: relative;
+    z-index: 7;
+    ;
+}
+
 .title_landing {
     display: flex;
     justify-content: center;
     font-family: 'Bungee Shade', cursive;
     font-size: 90px;
+
+}
+
+.title_desc {
+    text-align: center;
 }
 
 
@@ -118,15 +129,17 @@
     color: transparent;
     background-position: center;
     height: 35vh;
-    margin-top: 230px;
-
+    margin-top: 200px;
+    position: relative;
+    z-index: 7;
 }
 
 .landing_page {
     width: 100%;
     height: 100vh;
-    position: relative;
     transition: 0.5s;
+    position: relative;
+    overflow: hidden;
 }
 
 .video_bg {
@@ -134,9 +147,8 @@
     height: 100vh;
     position: absolute;
     top: 0;
-    z-index: -1;
+    z-index: 1;
     object-fit: cover;
-
 }
 
 
@@ -152,4 +164,14 @@
 
 .no_items {
     text-align: center;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
