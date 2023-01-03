@@ -7,7 +7,7 @@ Chamber is an LLC based in Chicago that provides in-person dance training. Each 
 * Stripe API 
 * HTML/CSS
 
--The problem: Chamber did not have a personal website to allow for thier students to purchase tickets to the showing. Thier main form of sign-ups/payment was through google forms and instagram. This site allows them to track payments and ticket sales with the help of Stripe.
+The problem: Chamber did not have a personal website to allow for thier students to purchase tickets to the showing. Thier main form of sign-ups/payment was through google forms and instagram. This site allows them to track payments and ticket sales with the help of Stripe.
 
 <div align="center">
 
