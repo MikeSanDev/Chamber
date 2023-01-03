@@ -1,5 +1,5 @@
 # Chamber.IO
-An e-commerce website </br>
+### An e-commerce website </br>
 Chamber is an LLC based in Chicago that provides in-person dance training. Each session is curated by the director who hosts this weekend training sessions.
 
 ##Built with: 
