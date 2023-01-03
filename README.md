@@ -23,7 +23,7 @@ Chamber is an LLC based in Chicago that provides in-person dance training. Each 
 ![tickets](https://user-images.githubusercontent.com/96930354/210295670-3b194379-c22f-4b12-9fa4-a9276643bdb1.gif)
 </br>
 
-### Stripe Payment </br>
+### Stripe </br>
 ![stripe](https://user-images.githubusercontent.com/96930354/210295676-1dff9f48-7548-4213-a3be-28dd9036309e.gif)
 </br>
 </div>
