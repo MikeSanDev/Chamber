@@ -1,3 +1,41 @@
+# Chamber.IO
+## An e-commerce website.
+## Chamber is an LLC based in Chicago that provides in-person dance training. Each session is curated by the director who hosts this weekend training sessions.
+
+###Built with: 
+* React JS
+* Stripe API 
+* HTML/CSS
+
+-The problem: Chamber did not have a personal website to allow for thier students to purchase tickets to the showing. Thier main form of sign-ups/payment was through google forms and instagram. This site allows them to track payments and ticket sales with the help of Stripe.
+
+
+### Landing Page </br>
+![landingg](https://user-images.githubusercontent.com/96930354/210295651-dd382e5f-481f-4e0a-a26f-267104046f1f.gif)
+</br>
+
+### About </br>
+![aboutt](https://user-images.githubusercontent.com/96930354/210295664-801084b2-b932-48ff-b93a-57263c997f02.gif)
+</br>
+
+### Tickets </br>
+![tickets](https://user-images.githubusercontent.com/96930354/210295670-3b194379-c22f-4b12-9fa4-a9276643bdb1.gif)
+</br>
+
+### Stripe Payment </br>
+![stripe](https://user-images.githubusercontent.com/96930354/210295676-1dff9f48-7548-4213-a3be-28dd9036309e.gif)
+</br>
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
