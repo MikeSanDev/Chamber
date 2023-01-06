@@ -13,19 +13,19 @@ The problem: Chamber did not have a personal website to allow for thier students
 <div align="center">
 
 ### Landing Page </br>
-![landingg](https://user-images.githubusercontent.com/96930354/210295651-dd382e5f-481f-4e0a-a26f-267104046f1f.gif)
+![landd](https://user-images.githubusercontent.com/96930354/210951272-c7f7bff0-dbfe-45ea-8420-5673be6ccbdb.gif)
 </br>
 
 ### About </br>
-![aboutt](https://user-images.githubusercontent.com/96930354/210295664-801084b2-b932-48ff-b93a-57263c997f02.gif)
+![bout](https://user-images.githubusercontent.com/96930354/210951320-4e601576-1f62-4c18-b6b3-65a4b24f2469.gif)
 </br>
 
 ### Tickets </br>
-![tickets](https://user-images.githubusercontent.com/96930354/210295670-3b194379-c22f-4b12-9fa4-a9276643bdb1.gif)
+![ticketss](https://user-images.githubusercontent.com/96930354/210951370-8c7c9212-f30a-4768-af96-e3b6e2da49be.gif)
 </br>
 
 ### Stripe </br>
-![stripe](https://user-images.githubusercontent.com/96930354/210295676-1dff9f48-7548-4213-a3be-28dd9036309e.gif)
+![stripee](https://user-images.githubusercontent.com/96930354/210951396-2b605159-7908-4b76-b800-5a3b48038ba5.gif)
 </br>
 </div>
 
