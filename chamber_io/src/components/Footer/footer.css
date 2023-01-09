@@ -106,3 +106,76 @@
     margin-bottom: 0;
     padding: 20px 0px 20px 70px;
 }
+
+/* RESPONSIVE */
+
+@media (min-width: 300px) and (max-width: 700px) {
+    .footer_follow {
+        padding: 10px 0px 0px 10px;
+    }
+
+    .footer_block1>p {
+        font-size: 12px;
+        margin: 0;
+    }
+
+    .footer_block2 {
+        padding-left: 15px;
+    }
+
+    .copyright {
+        padding: 20px 0 20px 20px;
+    }
+}
+
+/* Extra small devices (phones, up to 480px)  */
+@media (min-width: 575px) {
+
+    .footer_block2 {
+        padding: 0px 15px;
+    }
+
+    .footer_follow {
+        padding: 20px 0px 0px 20px;
+    }
+}
+
+/* Small devices (tablets, 768px and up)  */
+@media (min-width: 700px) and (max-width: 991px) {
+    .footer_follow {
+        padding: 20px 0px 0px 20px;
+    }
+
+    .footer_block1>p {
+        font-size: 15px;
+        margin: 0;
+    }
+
+    .footer_block2 {
+        padding: 0px 15px;
+    }
+
+    .copyright {
+        padding: 20px 0 20px 20px;
+    }
+}
+
+/* tablets/desktops and up ———–  */
+@media (min-width: 992px) and (max-width: 1920px) {
+    .footer_follow {
+        padding: 30px 0px 0px 30px;
+    }
+
+    .footer_block1>p {
+        font-size: 20px;
+        margin: 0;
+    }
+
+    .footer_block2 {
+        padding: 0px 15px;
+    }
+
+    .copyright {
+        padding: 20px 0 20px 20px;
+    }
+}

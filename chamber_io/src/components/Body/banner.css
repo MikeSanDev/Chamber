@@ -8,3 +8,32 @@
     text-align: center;
     color: var(--lightBrown);
 }
+
+/* RESPONSIVE */
+
+@media (min-width: 300px) and (max-width: 700px) {
+    .banner {
+        padding: 100px 10px;
+
+    }
+
+    .banner>h5 {
+        font-size: small;
+    }
+}
+
+/* Small devices (tablets, 768px and up)  */
+@media (min-width: 700px) and (max-width: 991px) {
+    .banner {
+        padding: 100px 10px;
+
+    }
+}
+
+/* tablets/desktops and up ———–  */
+@media (min-width: 992px) and (max-width: 1920px) {
+    .banner {
+        padding: 100px 10px;
+
+    }
+}

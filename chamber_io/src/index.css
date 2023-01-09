@@ -41,3 +41,35 @@
 .container {
   width: 100%;
 }
+
+/* RESPONSIVE */
+
+@media (min-width: 300px) and (max-width: 700px) {
+  .products {
+    background-color: var(--lightGray);
+    padding: 30px 20px;
+    border-radius: 50px;
+  }
+}
+
+
+/* Extra small devices (phones, up to 480px)  */
+@media (min-width: 575px) {
+  .products {
+    background-color: var(--lightGray);
+    padding: 40px 40px;
+    border-radius: 50px;
+  }
+}
+
+/* Small devices (tablets, 768px and up)  */
+@media (min-width: 700px) and (max-width: 991px) {
+  .products {
+    background-color: var(--lightGray);
+    padding: 40px 45px;
+    border-radius: 50px;
+  }
+}
+
+/* tablets/desktops and up ———–  */
+@media (min-width: 992px) and (max-width: 1199px) {}
