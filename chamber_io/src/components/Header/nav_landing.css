@@ -113,7 +113,7 @@
     display: flex;
     justify-content: center;
     font-family: 'Bungee Shade', cursive;
-    font-size: 90px;
+    font-size: 100px;
 
 }
 
@@ -164,4 +164,47 @@
 
 .no_items {
     text-align: center;
+}
+
+
+/* RESPONSIVE */
+
+@media (min-width: 300px) and (max-width: 700px) {}
+
+.justify-content-end {
+    margin-left: 10px;
+    padding-top: 10px;
+}
+
+
+
+.navbar-toggler {
+    margin-right: 10px;
+    background-color: var(--lightGreen);
+}
+
+.title_landing {
+    font-size: 45px;
+}
+
+
+/* Extra small devices (phones, up to 480px)  */
+@media (min-width: 575px) {
+    .title_landing {
+        font-size: 60px;
+    }
+}
+
+/* Small devices (tablets, 768px and up)  */
+@media (min-width: 700px) and (max-width: 991px) {
+    .title_landing {
+        font-size: 85px;
+    }
+}
+
+/* tablets/desktops and up ———–  */
+@media (min-width: 992px) and (max-width: 1920px) {
+    .title_landing {
+        font-size: 95px;
+    }
 }
