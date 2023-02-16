@@ -1,5 +1,5 @@
 import { createContext, useState } from "react";
-import { productsArray, getProductData } from "./productsStore";
+import { getProductData } from "./productsStore";
 
 // Context (cart, addToCart, removeFromCart)
 
@@ -61,7 +61,7 @@ export function CartProvider({ children }) {
     function removeOneFromCart(id) {
         const quantity = getProductQuantity(id);
 
-        if (quantity == 1) { //if quantity goes below 1, the entire product is deleted.
+        if (quantity === 1) { //if quantity goes below 1, the entire product is deleted.
             deleteFromCart(id);
         } else {
             setCartProducts(
@@ -84,7 +84,7 @@ export function CartProvider({ children }) {
         setCartProducts(
             cartProducts =>
                 cartProducts.filter(currentProduct => {
-                    return currentProduct.id != id; // 2 != 2 then its false - will not be added to new array 
+                    return currentProduct.id !== id; // 2 != 2 then its false - will not be added to new array 
                 })
         )
     }
