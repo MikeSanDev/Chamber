@@ -2,9 +2,9 @@
 // Midnight: price_1MF6xWA1869aNZSe8Iddql1g
 // Day 1: price_1MOCQJA1869aNZSe1mR8RuUl
 // if creating new product, use the API product keys above the id
-import time_chamber from './images/hyperbolic-time-chamber-dbz.jpeg';
-import midnight from './images/midnight.png';
-import front_chamber from './images/front.png';
+import time_chamber from './images/c1.png';
+import midnight from './images/c2.png';
+import front_chamber from './images/c3.png';
 
 const productsArray = [
     {
