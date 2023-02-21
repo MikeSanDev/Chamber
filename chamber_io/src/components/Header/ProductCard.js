@@ -8,8 +8,8 @@ import './productCard.css';
 const styles = {
     cardImage: {
         objectFit: 'cover',
-        width: 'auto',
-        height: '30vh'
+        width: '100%',
+        height: 'auto'
     }
 }
 
