@@ -3,12 +3,13 @@ import React, { useState, useContext } from 'react';
 import { CartContext } from '../../CartContext';
 import CartProduct from './CartProduct';
 import bgVideo from '../../images/bgVideo.mp4';
+import { motion } from 'framer-motion';
 import './nav_landing.css';
 
 
 
 function NavbarComponent() {
-    // doenst allow cart to pop up on initial render of the main page 
+    // does'nt allow cart to pop up on initial render of the main page 
     const [show, setShow] = useState(false);
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
@@ -35,7 +36,18 @@ function NavbarComponent() {
 
     return (
         <>
-            <div className="landing_page">
+            <motion.div
+                transition={{
+                    duration: 1
+                }}
+                initial={{
+                    y: 0,
+                    opacity: 0,
+                }}
+                animate={{
+                    y: 0,
+                    opacity: 1,
+                }} className="landing_page">
                 <Navbar expand="sm">
                     <Navbar.Brand className='nav_logo' href="/">Chamber.IO</Navbar.Brand>
                     <Navbar.Toggle />
@@ -71,15 +83,27 @@ function NavbarComponent() {
                     </Modal.Body>
                 </Modal>
 
-                <video className="video_bg" autoPlay loop muted>
+                <video className="video_bg" autoPlay loop muted playsInline>
                     <source src={bgVideo} type="video/mp4" />
                 </video>
-                <div className="hero_container">
+                <motion.div transition={{
+                    duration: 2
+                }}
+                    initial={{
+                        y: 30,
+                        opacity: 0,
+                        from: { y: -30 }
+                    }}
+                    animate={{
+                        y: 0,
+                        opacity: 1,
+                        to: { y: 30 }
+                    }} className="hero_container">
                     <h1 className='title_landing'>Chamber.IO</h1>
                     <h4 className='title_desc'>In-person dance training and blockchain art</h4>
-                </div>
+                </motion.div>
 
-            </div>
+            </motion.div>
         </>
     )
 }

@@ -95,6 +95,7 @@ export function CartProvider({ children }) {
         cartProducts.map((cartItem) => { //productData will store the price/quantity of the product 
             const productData = getProductData(cartItem.id);
             totalCost += productData.price * cartItem.quantity;
+            return null;
         });
         return totalCost;
     }
