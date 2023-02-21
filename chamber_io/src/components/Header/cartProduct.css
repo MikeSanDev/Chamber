@@ -1,6 +1,6 @@
 .img-thumbnail {
-    width: 150px;
-    height: 150px;
+    width: 100%;
+    height: auto;
 }
 
 .single_product {
