@@ -22,7 +22,7 @@ function App() {
         <Container>
           <BrowserRouter>
             <Routes>
-              <Route path="/" index element={<Home />} />
+              <Route path="/Home" index element={<Home />} />
               <Route path="success" element={<Success />} />
               <Route path="cancel" element={<Cancel />} />
             </Routes>
