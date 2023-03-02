@@ -1,4 +1,4 @@
-import { Button, Navbar, Modal } from 'react-bootstrap';
+import { Button, Navbar, Modal, Nav } from 'react-bootstrap';
 import React, { useState, useContext } from 'react';
 import { CartContext } from '../../CartContext';
 import CartProduct from './CartProduct';
@@ -22,12 +22,12 @@ function NavbarComponent() {
             headers: {
                 'Content-Type': 'application/json'
             },
-            body: JSON.stringify({ items: cart.items }) // passes cart to lineItems in backened 
+            body: JSON.stringify({ items: cart.items }) // passes cart to lineItems in backend 
         }).then(response => {
             return response.json(); //session is created - response back here
         }).then(response => {
             if (response.url) {
-                window.location.assign(response.url); //forwards user to strpe
+                window.location.assign(response.url); //forwards user to stripe
             }
         })
     }
@@ -48,11 +48,19 @@ function NavbarComponent() {
                     y: 0,
                     opacity: 1,
                 }} className="landing_page">
-                <Navbar expand="sm">
+                <Navbar expand="sm" className="sticky-top">
                     <Navbar.Brand className='nav_logo' href="/">Chamber.IO</Navbar.Brand>
                     <Navbar.Toggle />
                     <Navbar.Collapse className="justify-content-end">
-                        <Button variant="danger" onClick={handleShow} className="nav_btn"> Cart ({productsCount} Items)</Button>
+                    <Nav>
+                        <Nav.Link className='nav_links' href="/#about">About</Nav.Link>
+                        <Nav.Link className='nav_links' href="/#ticket">Tickets</Nav.Link>
+                        <Nav.Link className='nav_links instagram-link' href="https://www.instagram.com/chamber.io/" target="_blank" rel="noopener noreferrer">
+                    <span className="link-text">Instagram</span>
+                    </Nav.Link>                    
+                    </Nav>
+                    {/* when ready to restart purchases, uncomment the button */}
+                        {/* <Button variant="danger" onClick={handleShow} className="nav_btn"> Cart ({productsCount} Items)</Button> */}
                     </Navbar.Collapse>
                 </Navbar>
                 {/* onHide handles the closing of the modal either by X or outside modal screen */}
@@ -63,7 +71,7 @@ function NavbarComponent() {
                     <Modal.Body>
                         {productsCount > 0 ?
                             <>
-                                {/* used CartProduct componenet to display current products in cart */}
+                                {/* used CartProduct component to display current products in cart */}
                                 <h5>Items in your cart:</h5>
                                 {cart.items.map((currentProduct, idx) => (
                                     <CartProduct key={idx} id={currentProduct.id} quantity={currentProduct.quantity}></CartProduct>

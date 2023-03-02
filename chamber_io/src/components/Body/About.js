@@ -5,8 +5,8 @@ import './about.css'
 function About() {
     return (
         <>
-
-            <div className='about'>
+            <div id='about'> </div>
+            <div className='about' >
 
                 <div className="about_block1">
                     <video className="about_vid" autoPlay loop muted playsInline>

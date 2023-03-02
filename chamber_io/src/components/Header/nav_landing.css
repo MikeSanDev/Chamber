@@ -33,7 +33,24 @@
 .nav_logo:hover {
     background-size: 4px 50px;
 }
-
+.nav_links {
+    margin-right: 20px;
+    color: antiquewhite;
+    text-decoration: none;
+    font-size: 19px;
+  }
+  .nav_links:hover {
+    color: #015055;
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+  }
+  .instagram-link .link-text:hover {
+    color: #015055;
+  }
+.navbar .nav-link.active {
+    color: antiquewhite;
+    background-color: transparent;
+  }
 .nav_btn {
     width: 150px;
     height: 50px;
@@ -87,6 +104,12 @@
     top: 0;
     border-radius: 10px;
 }
+
+.navbar.sticky-top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
 
 @keyframes glowing {
     0% {

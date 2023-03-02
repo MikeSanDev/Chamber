@@ -14,7 +14,7 @@ export const CartContext = createContext({
 
 
 // Provider -> lets the entire react app access to all the content in my context -
-// lets you access your cart anywehre in the app.
+// lets you access your cart anywhere in the app.
 
 export function CartProvider({ children }) {
     const [cartProducts, setCartProducts] = useState([])
@@ -45,11 +45,11 @@ export function CartProvider({ children }) {
             )
         } else { // product is in cart
             // Cart logic [{ id: 1, quantity: 2 }, {id:2, quantity: 1 + 1}] 
-            // maps through array of products using ... spread operatior until it matches the number and then it can add 1 to quantity
+            // maps through array of products using ... spread operator until it matches the number and then it can add 1 to quantity
             setCartProducts(
                 cartProducts.map(
                     product =>
-                        product.id === id                                    // if condidtion
+                        product.id === id                                    // if condition
                             ? { ...product, quantity: product.quantity + 1 } // if statement is true
                             : product                                        // if statement is false
                 )
@@ -67,7 +67,7 @@ export function CartProvider({ children }) {
             setCartProducts(
                 cartProducts.map(
                     product =>
-                        product.id === id                                    // if condidtion
+                        product.id === id                                    // if condition
                             ? { ...product, quantity: product.quantity - 1 } // if statement is true
                             : product                                        // if statement is false
                 )
@@ -77,7 +77,7 @@ export function CartProvider({ children }) {
 
     // Delete from cart 
     function deleteFromCart(id) {
-        // .filter = [] if an object meets a condidtion, it adds it to the array 
+        // .filter = [] if an object meets a condition, it adds it to the array 
         // Logic: if we need to remove a specific product like product 2 [product1, product2, product,3]
         // as long as the product DOES NOT have an id of 2, then pass it into a new array 
         // new array - [product1, product3], product2 is deleted

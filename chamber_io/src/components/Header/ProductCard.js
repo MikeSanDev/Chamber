@@ -27,11 +27,11 @@ function ProductCard(props) { // props.product is the product we are selling
                 <Card.Title>{product.title}</Card.Title>
                 <Card.Subtitle>{product.description}</Card.Subtitle>
                 <Card.Text>${product.price}</Card.Text>
-                {productQuantity > 0 ?   //logic on adding/subtracting quantity buttons
+                {/* {productQuantity > 0 ?   //logic on adding/subtracting quantity buttons
                     <>
                         <Form as={Row}>
                             <Form.Label column="true" sm="6">In Cart: {productQuantity}</Form.Label>
-                            <Col sm="6">
+                            <Col sm="6">r
                                 <Button sm="6" className="ms-2" onClick={() => cart.addOneToCart(product.id)} >+</Button>
                                 <Button sm="6" className="ms-2" onClick={() => cart.removeOneFromCart(product.id)} >-</Button>
                             </Col>
@@ -39,8 +39,11 @@ function ProductCard(props) { // props.product is the product we are selling
                         <Button variant="danger" onClick={() => cart.deleteFromCart(product.id)} className="my-2">Remove from cart</Button>
                     </>
                     :
-                    <Button className="all_btn" onClick={() => cart.addOneToCart(product.id)}>Add To Cart</Button>
-                }
+                } */}
+                {/* to reactivate - move button about the } ^ and uncomment the ternary operator */}
+                    <Button className="all_btn" >Available Spring 2023</Button>
+                    {/* onClick={() => cart.addOneToCart(product.id)} */} 
+                    {/* move the onClick event to the button above ^ */}
             </Card.Body>
         </Card>
     )
