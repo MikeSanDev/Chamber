@@ -40,12 +40,12 @@
     font-size: 19px;
   }
   .nav_links:hover {
-    color: #015055;
+    color: #a9b2a2;
     transform: scale(1.1);
     transition: all 0.3s ease-in-out;
   }
   .instagram-link .link-text:hover {
-    color: #015055;
+    color: #a9b2a2;
   }
 .navbar .nav-link.active {
     color: antiquewhite;
@@ -129,7 +129,7 @@
 .navbar {
     position: relative;
     z-index: 7;
-    ;
+    
 }
 
 .title_landing {
@@ -203,7 +203,9 @@
         margin-left: 10px;
         padding-top: 10px;
     }
-
+    .navbar-nav {
+    padding-left: 20px;
+    }
 
     .navbar-toggler {
         margin-right: 10px;
@@ -212,7 +214,8 @@
 
     .hero_container {
         background-image: url("/src/images/landing.png");
-        height: 17vh;
+        height: 50vh;
+        padding: 40px 20px;
     }
 
     .title_desc {
@@ -227,9 +230,12 @@
 
     .hero_container {
         background-image: url("/src/images/landing.png");
-        height: 16vh;
-        padding: 0 20px;
+        height: 50vh;
+        padding: 40px 20px;
     }
+    .navbar-nav {
+        padding-left: 30px;
+        }
 }
 
 
@@ -241,7 +247,8 @@
 
     .hero_container {
         background-image: url("/src/images/landing.png");
-        height: 20vh;
+        height: 50vh;
+        padding: 40px 20px;
     }
 
     .title_desc {
@@ -249,12 +256,16 @@
     }
 }
 
-/* tablets/desktops and up ———–  */
 @media (min-width: 992px) and (max-width: 1920px) {
     .title_landing {
         font-size: 95px;
     }
 
+    .hero_container {
+        background-image: url("/src/images/landing.png");
+        height: 50vh;
+        padding: 40px 20px;
+    }
     .title_desc {
         font-size: 35px;
     }
