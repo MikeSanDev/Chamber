@@ -7,7 +7,7 @@ import Home from './pages/Home'
 import Success from './pages/Success'
 import CartProvider from './CartContext'
 import Footer from './components/Footer/Footer'
-import { Slider } from './components/Body/Slider';
+import Slider from './components/Body/Slider';
 import Banner from './components/Body/Banner'
 import About from './components/Body/About'
 
