@@ -1,6 +1,7 @@
 import React from 'react'
 import './slider.css'
 import Carousel from 'react-bootstrap/Carousel';
+import { BsInstagram } from "react-icons/bs";
 
 import img1 from '../../images/carousel/carousel1.jpg';
 import img2 from '../../images/carousel/carousel2.jpg';
@@ -185,6 +186,10 @@ function Slider()  {
         <div className='card-info'>
           <h2>Bryan Quiaoit</h2>
           <p>Choreography to Sticky by Drake</p>
+          <a class="footer_link" href="https://www.instagram.com/chamber.io/" target="_blank" rel="noopener noreferrer">
+          <BsInstagram className='insta_icon' />
+                    </a>
+
         </div>
       </div>
       <div className='name-card'>
@@ -194,6 +199,9 @@ function Slider()  {
         <div className='card-info'>
           <h2>Tanya</h2>
           <p>Waving: Freestyle and Concepts</p>
+          <a class="footer_link" href="https://www.instagram.com/chamber.io/" target="_blank" rel="noopener noreferrer">
+                    Instagram
+                    </a>
         </div>
       </div>
       <div className='name-card'>
@@ -203,6 +211,12 @@ function Slider()  {
         <div className='card-info'>
           <h2>Ellaine + Emjay</h2>
           <p>Collab Choreography to Talk by Khalid</p>
+          <a class="footer_link" href="https://www.instagram.com/chamber.io/" target="_blank" rel="noopener noreferrer">
+                    Instagram
+                    </a>
+                    <a class="footer_link" href="https://www.instagram.com/chamber.io/" target="_blank" rel="noopener noreferrer">
+                    Instagram
+                    </a>          
         </div>
       </div>
     </div>

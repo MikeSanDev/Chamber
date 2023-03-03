@@ -67,3 +67,15 @@
     margin-left: 30px;
 } 
 
+
+
+.insta_icon {
+    transition: all 0.3s linear;
+    font-size: 20px;
+    color: #000;
+}
+
+.insta_icon:hover {
+    transform: scale(1.5);
+    color: #e11d74;
+}
