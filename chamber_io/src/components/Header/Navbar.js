@@ -54,6 +54,7 @@ function NavbarComponent() {
                     <Navbar.Collapse className="justify-content-end">
                     <Nav>
                         <Nav.Link className='nav_links' href="/#about">About</Nav.Link>
+                        <Nav.Link className='nav_links' href="/#photos">Photos</Nav.Link>
                         <Nav.Link className='nav_links' href="/#ticket">Tickets</Nav.Link>
                         <Nav.Link className='nav_links instagram-link' href="https://www.instagram.com/chamber.io/" target="_blank" rel="noopener noreferrer">
                     <span className="link-text">Instagram</span>

@@ -41,7 +41,7 @@ function ProductCard(props) { // props.product is the product we are selling
                     :
                 } */}
                 {/* to reactivate - move button about the } ^ and uncomment the ternary operator */}
-                    <Button className="all_btn" >Available Spring 2023</Button>
+                    <Button className="all_btn"  >Available Spring 2023</Button>
                     {/* onClick={() => cart.addOneToCart(product.id)} */} 
                     {/* move the onClick event to the button above ^ */}
             </Card.Body>
