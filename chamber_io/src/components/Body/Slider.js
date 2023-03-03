@@ -31,7 +31,7 @@ function Slider()  {
   return (
     <div className='main-container'>
     <div className='slider-block1'>
-        <h1 className='session_title' id='photos'>Chamber V7 Feb 2023 </h1>
+        <h1 className='session_title' id='photos'>Chamber V7 Feb 2023</h1>
 <Carousel 
     className='slider-container'>
       <Carousel.Item interval={2000}>
