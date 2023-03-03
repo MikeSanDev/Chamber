@@ -16,14 +16,16 @@
   height: 40px;
   font-size: 1.2em;
   padding: 0 1em;
-  cursor: pointer;
   transition: 800ms ease all;
   outline: none;
+  cursor: default;
 }
 
 .all_btn:hover {
   background: #fff;
   color: var(--accentColor);
+  cursor: default;
+
 }
 
 .all_btn:before,
@@ -36,6 +38,8 @@
   width: 0;
   background: var(--mainColor);
   transition: 400ms ease all;
+  cursor: default;
+
 }
 
 .all_btn:after {
@@ -43,11 +47,15 @@
   top: inherit;
   left: 0;
   bottom: 0;
+  cursor: default;
+
 }
 
 .all_btn:hover:before,
 .all_btn:hover:after {
   width: 100%;
+  cursor: default;
+
   transition: 800ms ease all;
 }
 
