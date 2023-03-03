@@ -1,33 +1,213 @@
 import React from 'react'
-import { Carousel } from 'react-responsive-carousel';
+import './slider.css'
+import Carousel from 'react-bootstrap/Carousel';
+
+import img1 from '../../images/carousel/carousel1.jpg';
+import img2 from '../../images/carousel/carousel2.jpg';
+import img3 from '../../images/carousel/carousel3.jpg';
+import img4 from '../../images/carousel/carousel4.jpg';
+import img5 from '../../images/carousel/carousel5.jpg';
+import img6 from '../../images/carousel/carousel6.jpg';
+import img7 from '../../images/carousel/carousel7.jpg';
+import img8 from '../../images/carousel/carousel8.jpg';
+import img9 from '../../images/carousel/carousel9.jpg';
+import img10 from '../../images/carousel/carousel10.jpg';
+import img11 from '../../images/carousel/carousel11.jpg';
+import img12 from '../../images/carousel/carousel12.jpg';
+import img13 from '../../images/carousel/carousel13.jpg';
+import img14 from '../../images/carousel/carousel14.jpg';
+import img15 from '../../images/carousel/carousel15.jpg';
+import img16 from '../../images/carousel/carousel16.jpg';
+import img17 from '../../images/carousel/carousel17.jpg';
+import img18 from '../../images/carousel/carousel18.jpg';
+import img19 from '../../images/carousel/carousel19.jpg';
+import img20 from '../../images/carousel/carousel20.jpg';
+import bryan from '../../images/bryan1.png';
+import tanya from '../../images/tanya.png';
+import el_em from '../../images/el-em.png';
 
 
-export const Slider = () => {
+function Slider()  {
   return (
-    <div> 
-    {/* <Carousel>
-    <div>
-      <img src="https://via.placeholder.com/800x400?text=Slide%201" alt="Slide 1" />
+    <div className='main-container'>
+    <div className='slider-block1'>
+        <h1 className='session_title' id='photos'>Chamber V7 Feb 2023 </h1>
+<Carousel 
+    className='slider-container'>
+      <Carousel.Item interval={2000}>
+        <img
+          className="custom-img"
+          src={img1}
+          alt="Chamber"
+        />
+      </Carousel.Item>
+      <Carousel.Item interval={2000}>
+        <img
+          className="custom-img"
+          src={img2}
+          alt="SChamber"
+        />
+      </Carousel.Item>
+      <Carousel.Item interval={2000} >
+        <img
+          className="custom-img"
+          src={img3}
+          alt="Chamber"
+        />
+      </Carousel.Item>
+      <Carousel.Item interval={2000} >
+        <img
+          className="custom-img"
+          src={img4}
+          alt="Chamber"
+        />
+      </Carousel.Item>
+      <Carousel.Item interval={2000}>
+        <img
+          className="custom-img"
+          src={img5}
+          alt="Chamber"
+        />
+      </Carousel.Item>
+      <Carousel.Item interval={2000}>
+        <img
+          className="custom-img"
+          src={img6}
+          alt="Chamber"
+        />
+      </Carousel.Item>
+      <Carousel.Item interval={2000}>
+        <img
+          className="custom-img"
+          src={img7}
+          alt="Chamber"
+        />
+      </Carousel.Item>
+      <Carousel.Item interval={2000}>
+        <img
+          className="custom-img"
+          src={img8}
+          alt="Chamber"
+        />
+      </Carousel.Item>
+      <Carousel.Item interval={2000}>
+        <img
+          className="custom-img"
+          src={img9}
+          alt="Chamber"
+        />
+      </Carousel.Item>
+      <Carousel.Item interval={2000}>
+        <img
+          className="custom-img"
+          src={img10}
+          alt="Chamber"
+        />
+      </Carousel.Item>
+      <Carousel.Item interval={2000}>
+        <img
+          className="custom-img"
+          src={img11}
+          alt="Chamber"
+        />
+      </Carousel.Item>
+      <Carousel.Item interval={2000}>
+        <img
+          className="custom-img"
+          src={img12}
+          alt="Chamber"
+        />
+      </Carousel.Item>
+      <Carousel.Item interval={2000}>
+        <img
+          className="custom-img"
+          src={img13}
+          alt="Chamber"
+        />
+      </Carousel.Item>
+      <Carousel.Item interval={2000}>
+        <img
+          className="custom-img"
+          src={img14}
+          alt="Chamber"
+        />
+      </Carousel.Item>
+      <Carousel.Item interval={2000}>
+        <img
+          className="custom-img"
+          src={img15}
+          alt="Chamber"
+        />
+      </Carousel.Item>
+      <Carousel.Item interval={2000}>
+        <img
+          className="custom-img"
+          src={img16}
+          alt="Chamber"
+        />
+      </Carousel.Item>
+      <Carousel.Item interval={2000}>
+        <img
+          className="custom-img"
+          src={img17}
+          alt="Chamber"
+        />
+      </Carousel.Item>
+      <Carousel.Item interval={2000}>
+        <img
+          className="custom-img"
+          src={img18}
+          alt="Chamber"
+        />
+      </Carousel.Item>
+      <Carousel.Item interval={2000}>
+        <img
+          className="custom-img"
+          src={img19}
+          alt="Chamber"
+        />
+      </Carousel.Item>
+      <Carousel.Item interval={2000}>
+        <img
+          className="custom-img"
+          src={img20}
+          alt="Chamber"
+        />
+      </Carousel.Item>
+    </Carousel>
     </div>
-    <div>
-      <img src="https://via.placeholder.com/800x400?text=Slide%202" alt="Slide 2" />
+    <div className='slider-block2'>
+      <h1 className='session_title'>Teachers:</h1>
+      <div className='name-card'>
+        <div className='card-img'>
+          <img className='teacher-img' src={bryan} alt='Bryan'/>
+        </div>
+        <div className='card-info'>
+          <h2>Bryan Quiaoit</h2>
+          <p>Choreography to Sticky by Drake</p>
+        </div>
+      </div>
+      <div className='name-card'>
+        <div className='card-img'>
+          <img className='teacher-img' src={tanya} alt='Bryan'/>
+        </div>
+        <div className='card-info'>
+          <h2>Tanya</h2>
+          <p>Waving: Freestyle and Concepts</p>
+        </div>
+      </div>
+      <div className='name-card'>
+        <div className='card-img'>
+          <img className='teacher-img' src={el_em} alt='Bryan'/>
+        </div>
+        <div className='card-info'>
+          <h2>Ellaine + Emjay</h2>
+          <p>Collab Choreography to Talk by Khalid</p>
+        </div>
+      </div>
     </div>
-    <div>
-      <img src="https://via.placeholder.com/800x400?text=Slide%203" alt="Slide 3" />
-    </div>
-    <div>
-      <img src="https://via.placeholder.com/800x400?text=Slide%204" alt="Slide 4" />
-    </div>
-    <div>
-      <img src="https://via.placeholder.com/800x400?text=Slide%205" alt="Slide 5" />
-    </div>
-    <div>
-      <img src="https://via.placeholder.com/800x400?text=Slide%206" alt="Slide 6" />
-    </div>
-    <div>
-      <img src="https://via.placeholder.com/800x400?text=Slide%207" alt="Slide 7" />
-    </div>
-  </Carousel> */}
-  </div>
+
+</div>
   )
 }
+export default Slider;
