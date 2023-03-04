@@ -68,7 +68,15 @@
 @media (min-width: 575px) {}
 
 /* Small devices (tablets, 768px and up)  */
-@media (min-width: 700px) and (max-width: 991px) {}
+@media (min-width: 768px) and (max-width: 1121px) {
+  .all_btn {
+    height: auto;
+  }
+}
 
 /* tablets/desktops and up ———–  */
-@media (min-width: 992px) and (max-width: 1199px) {}
+@media (min-width: 1121px) and (max-width: 1200px) {
+  .all_btn {
+    height: auto;
+  }
+} 
