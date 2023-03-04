@@ -212,13 +212,13 @@ function Slider()  {
         <div className='card-info'>
         <div className='info-text-link e_m_block'>
         <div className='e_m_tag1'>
-          <h2>Ellaine</h2>
+          <h2>Ellaine Manuel</h2>
             <a class="footer_link" href="https://www.instagram.com/ellaine.manuel/" target="_blank" rel="noopener noreferrer">
               <BsInstagram className='insta_icon' />
             </a>
         </div>
         <div className='e_m_tag2'>
-          <h2>Emjay</h2>
+          <h2>Emjay Mendez</h2>
           <a class="footer_link" href="https://www.instagram.com/emjaymendez/" target="_blank" rel="noopener noreferrer">
             <BsInstagram className='insta_icon' />
           </a>
