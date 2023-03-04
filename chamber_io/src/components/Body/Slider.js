@@ -184,12 +184,12 @@ function Slider()  {
           <img className='teacher-img' src={bryan} alt='Bryan'/>
         </div>
         <div className='card-info'>
-          <h2>Bryan Quiaoit</h2>
-          <p>Choreography to Sticky by Drake</p>
-          <a class="footer_link" href="https://www.instagram.com/chamber.io/" target="_blank" rel="noopener noreferrer">
-          <BsInstagram className='insta_icon' />
-                    </a>
-
+        <div className='info-text-link'>
+          <h2>Bryan Quiaoit</h2> 
+          <a class="footer_link" href="https://www.instagram.com/bryan.quiaoit/" target="_blank" rel="noopener noreferrer">
+          <BsInstagram className='insta_icon' /></a>
+          </div>
+          <p>Choreography: Sticky by Drake</p>
         </div>
       </div>
       <div className='name-card'>
@@ -197,26 +197,34 @@ function Slider()  {
           <img className='teacher-img' src={tanya} alt='Bryan'/>
         </div>
         <div className='card-info'>
+        <div className='info-text-link'>
           <h2>Tanya</h2>
+          <a class="footer_link" href="https://www.instagram.com/terehovate/" target="_blank" rel="noopener noreferrer">
+          <BsInstagram className='insta_icon' /></a>
+        </div>
           <p>Waving: Freestyle and Concepts</p>
-          <a class="footer_link" href="https://www.instagram.com/chamber.io/" target="_blank" rel="noopener noreferrer">
-                    Instagram
-                    </a>
         </div>
       </div>
       <div className='name-card'>
         <div className='card-img'>
-          <img className='teacher-img' src={el_em} alt='Bryan'/>
+          <img className='teacher-img img3' src={el_em} alt='Bryan'/>
         </div>
         <div className='card-info'>
-          <h2>Ellaine + Emjay</h2>
-          <p>Collab Choreography to Talk by Khalid</p>
-          <a class="footer_link" href="https://www.instagram.com/chamber.io/" target="_blank" rel="noopener noreferrer">
-                    Instagram
-                    </a>
-                    <a class="footer_link" href="https://www.instagram.com/chamber.io/" target="_blank" rel="noopener noreferrer">
-                    Instagram
-                    </a>          
+        <div className='info-text-link e_m_block'>
+        <div className='e_m_tag1'>
+          <h2>Ellaine</h2>
+            <a class="footer_link" href="https://www.instagram.com/ellaine.manuel/" target="_blank" rel="noopener noreferrer">
+              <BsInstagram className='insta_icon' />
+            </a>
+        </div>
+        <div className='e_m_tag2'>
+          <h2>Emjay</h2>
+          <a class="footer_link" href="https://www.instagram.com/emjaymendez/" target="_blank" rel="noopener noreferrer">
+            <BsInstagram className='insta_icon' />
+          </a>
+        </div>
+      </div>    
+          <p>Collab Choreography: Talk by Khalid</p>
         </div>
       </div>
     </div>
