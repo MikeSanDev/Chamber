@@ -108,7 +108,7 @@ function NavbarComponent() {
                         opacity: 1,
                         to: { y: 30 }
                     }} className="hero_container">
-                    <h1 className='title_landing'>Chamber.IO</h1>
+                    <h1 className='title_landing' >Chamber.IO</h1>
                     <h4 className='title_desc'>In-person dance training and blockchain art</h4>
                 </motion.div>
 
