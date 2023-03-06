@@ -224,7 +224,7 @@ function Slider()  {
           </a>
         </div>
       </div>    
-          <p>Collab Choreography: Talk by Khalid</p>
+          <p className='e_m_text'>Collab Choreography: Talk by Khalid</p>
         </div>
       </div>
     </div>
