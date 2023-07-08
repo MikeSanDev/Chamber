@@ -1,5 +1,5 @@
 # Chamber.IO
-### An e-commerce website </br>
+### A Private Dance Class Website </br>
 Deployed version: https://chamber-io.netlify.app/ </br>
 </br>
 Chamber is an LLC based in Chicago that provides in-person dance training. Each session is curated by the director who hosts this weekend training sessions.
