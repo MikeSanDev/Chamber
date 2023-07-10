@@ -40,7 +40,7 @@ function ProductCard(props) {
                     :
                 } */}
         {/* to reactivate - move button about the } ^ and uncomment the ternary operator */}
-        <Button className="all_btn">Available Fall 2023</Button>
+        <Button className="all_btn">Available 2023</Button>
         {/* onClick={() => cart.addOneToCart(product.id)} */}
         {/* move the onClick event to the button above ^ */}
       </Card.Body>
