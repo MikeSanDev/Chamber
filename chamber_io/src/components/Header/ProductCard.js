@@ -2,6 +2,10 @@ import { Card, Button, Form, Row, Col } from "react-bootstrap";
 import { CartContext } from "../../CartContext";
 import { useContext } from "react";
 import "./productCard.css";
+import { Card, Button, Form, Row, Col } from "react-bootstrap";
+import { CartContext } from "../../CartContext";
+import { useContext } from "react";
+import "./productCard.css";
 
 const styles = {
   cardImage: {
@@ -40,7 +44,7 @@ function ProductCard(props) {
                     :
                 } */}
         {/* to reactivate - move button about the } ^ and uncomment the ternary operator */}
-        <Button className="all_btn">Available Fall 2023</Button>
+        <Button className="all_btn">Coming Soon</Button>
         {/* onClick={() => cart.addOneToCart(product.id)} */}
         {/* move the onClick event to the button above ^ */}
       </Card.Body>
