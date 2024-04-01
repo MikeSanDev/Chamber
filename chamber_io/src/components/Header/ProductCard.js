@@ -2,10 +2,6 @@ import { Card, Button, Form, Row, Col } from "react-bootstrap";
 import { CartContext } from "../../CartContext";
 import { useContext } from "react";
 import "./productCard.css";
-import { Card, Button, Form, Row, Col } from "react-bootstrap";
-import { CartContext } from "../../CartContext";
-import { useContext } from "react";
-import "./productCard.css";
 
 const styles = {
   cardImage: {
