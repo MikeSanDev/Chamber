@@ -8,8 +8,8 @@ import ProductCard from '../components/Header/ProductCard';
 function Home() {
     return (
         <>
-            <h1 className='session_title' id='ticket' > Chamber V8 (Chicago) </h1>
-            <h1 className='session_title' > (Coming Fall 2023) </h1>
+            <h1 className='session_title' id='ticket' > Chamber (Chicago) </h1>
+            <h1 className='session_title' > (Coming Soon) </h1>
             {/* used xs and md to add responsive sizing of the table */}
             <div className='products'>
                 <Row xs={1} md={3} className="g-4">
