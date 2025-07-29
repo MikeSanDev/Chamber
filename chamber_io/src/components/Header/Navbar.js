@@ -56,7 +56,7 @@ function NavbarComponent() {
                         <Nav.Link className='nav_links' href="/#about">About</Nav.Link>
                         <Nav.Link className='nav_links' href="/#photos">Photos</Nav.Link>
                         <Nav.Link className='nav_links' href="/#ticket">Tickets</Nav.Link>
-                        <Nav.Link className='nav_links instagram-link' href="https://www.instagram.com/chamber.io/" target="_blank" rel="noopener noreferrer">
+                        <Nav.Link className='nav_links instagram-link' href="https://www.instagram.com/chamber.creative/" target="_blank" rel="noopener noreferrer">
                     <span className="link-text">Instagram</span>
                     </Nav.Link>                    
                     </Nav>
